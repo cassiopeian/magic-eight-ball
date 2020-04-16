@@ -1,0 +1,92 @@
+/* GLOBAL */
+
+* {
+    /* background-image: url('../images/q-mark-bg-02.png');
+    background-size: cover; */
+    background-color: rgb(131, 186, 166);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+}
+#input-side {
+    width: 450px;
+    height: 200px;
+}
+h2 {
+    font-size: 2rem;
+    padding-bottom: 0.75rem;
+}
+#question {
+    width: 100%;
+    min-width: 250px;
+    height: 130px;
+    resize: none;
+    padding: 20px 20px;
+    border: none;
+    background-color: rgb(9, 13, 19);
+    color: rgb(246, 247, 244);
+    font-size: 1.1rem;
+}
+#question::placeholder {
+    font-style: italic;
+    opacity: 0.5;
+}
+#ball-container {
+    width: 400px;
+    height: 400px;
+    margin: 10% 0;
+}
+#ball-front {
+    width: 100%;
+    min-width: 318px;
+    height: auto;
+    position: relative;
+    animation-name: bounce;
+    animation-duration: 5s;
+    animation-iteration-count: infinite
+}
+@keyframes bounce {
+    0%   {top:80px;}
+    25%  {top:10px;}
+    50%  {top:60px;}
+    75%  {top:0px;}
+    100% {top:80px;}
+}
+#submit {
+    border: none;
+    background-color: goldenrod;
+    color: tomato;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 0 10px;
+    border-radius: 50%;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+#ball-response {
+    font-family: 'Bungee Hairline', cursive;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+}
+
+/* FOOTER */
+
+footer {
+    position: fixed;
+    bottom: 0;
+    padding: 15px 30px;
+    width: 100%;
+}
