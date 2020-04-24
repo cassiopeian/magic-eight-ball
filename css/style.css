@@ -139,15 +139,10 @@ h2 {
     width: 400px;
     height: 400px;
     margin-bottom: 10%;
-}
-#ball-front {
-    width: 100%;
-    min-width: 318px;
-    height: auto;
     position: relative;
     animation-name: bounce;
     animation-duration: 5s;
-    animation-iteration-count: infinite
+    animation-iteration-count: infinite;
 }
 @keyframes bounce {
     0%   {top:80px;}
@@ -156,10 +151,22 @@ h2 {
     75%  {top:0px;}
     100% {top:80px;}
 }
+#ball-front {
+    width: 100%;
+    min-width: 318px;
+    height: auto;
+    position: relative;
+    
+}
 #ball-response {
     font-family: 'Bungee Hairline', cursive;
     font-size: 18px;
     color: rgb(255, 255, 255);
+    width: 100px;
+    text-align: center;
+    margin: -230px auto;
+    position: relative;
+    z-index: 10;
 }
 
 /* FOOTER */
