@@ -6,7 +6,7 @@
 //   console.log ('Hello, stranger!');
 // Ternary expression decides what to output depending on user's choice of username
 
-$('#submit').on('click', function() {
+$('.submit').on('click', function() {
   // const userQuestion = $('#question').val();
   // console.log(`You have asked: ${userQuestion}`);
   // This is the user's question
