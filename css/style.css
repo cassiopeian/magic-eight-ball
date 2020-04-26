@@ -164,7 +164,6 @@ h2 {
     min-width: 318px;
     height: auto;
     position: relative;
-    
 }
 #ball-response {
     font-family: 'Bungee Hairline', cursive;
@@ -175,6 +174,7 @@ h2 {
     margin: -230px auto;
     position: relative;
     z-index: 10;
+    cursor: pointer;
 }
 
 /* FOOTER */
