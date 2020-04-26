@@ -1,14 +1,6 @@
-// let username = 'Baloo';
-// Set a username
-
-// username ?
-//   console.log(`Hello, ${username}!`) :
-//   console.log ('Hello, stranger!');
-// Ternary expression decides what to output depending on user's choice of username
-
 $('.submit').on('click', function() {
-  // const userQuestion = $('#question').val();
-  // console.log(`You have asked: ${userQuestion}`);
+  const userQuestion = $('#question').val();
+  console.log(`You asked, "${userQuestion}"`);
   // This is the user's question
 
   const randomNumber = Math.floor(Math.random() * 8); 
@@ -45,13 +37,27 @@ $('.submit').on('click', function() {
   }
   // Allows the MEB to spit out a random response
 
+  $('#ball-front').attr('src', 'images/8-ball-back-01.svg');
+  $('#ball-response').hide().fadeIn(1000).html(eightBall);
   
-    $('#ball-front').attr('src', 'images/8-ball-back-01.svg');
-    $('#ball-response').html(eightBall);
-  
-
   console.log(`The mystic Magic Eight Ball says, "${eightBall}"`);
 });
 
 
-/* 8 BALL ANIMATION */
+/* TO "RESET"/TURN THE BALL */
+
+const ballFront = $('#ball-front');
+const ballResponse = $('#ball-response');
+
+// if ($('#ball-front').attr('src') == 'images/8-ball-back-01.svg') {
+//   $('#ball-front').css('cursor', 'pointer');
+// } else {
+//   $('#ball-front').css('cursor', 'default');
+// }
+
+$('#ball-response').on('click', function() {
+  if (ballFront.attr('src') === 'images/8-ball-back-01.svg') {
+    ballResponse.hide();
+    ballFront.attr('src', 'images/8-ball-face-01.svg');
+  }
+});
