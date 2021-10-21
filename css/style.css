@@ -162,7 +162,7 @@ h2 {
 #ball-front {
     width: 100%;
     min-width: 318px;
-    height: auto;
+    height: 100%;
     position: relative;
 }
 #ball-response {
