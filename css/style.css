@@ -66,12 +66,12 @@ h1 {
     font-style: normal;
     color: snow;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 2.17rem;
     background: -webkit-linear-gradient(160deg, #f09433 5%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 97%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    margin-bottom: -5px;
+    margin: 0 0 -.35rem 0;
 }
 
 /* MAIN */
