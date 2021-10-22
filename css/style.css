@@ -24,11 +24,16 @@ html {
     height: -webkit-fill-available;
 }
 * {
-    margin: 0;
-    padding: 0;
+    box-sizing: inherit;
 }
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
     background-image: url('../images/grunge-rubiks.svg');
+    margin: 0;
+    padding: 0;
 }
 
 /* HEADER */
