@@ -18,9 +18,12 @@
 
 /* GLOBAL */
 
-* {
-    box-sizing: border-box;
+html {
     font-size: 16px;
+    box-sizing: border-box;
+    height: -webkit-fill-available;
+}
+* {
     margin: 0;
     padding: 0;
 }
