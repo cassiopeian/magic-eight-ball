@@ -204,4 +204,7 @@ footer {
     main {
         flex-direction: column-reverse;
     }
+    #etch-a-sketch {
+        margin: 3rem auto 5rem;
+    }
 }
