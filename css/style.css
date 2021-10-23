@@ -38,6 +38,9 @@ body {
 
 /* HEADER */
 
+a {
+    text-decoration: none;
+}
 #corner-pocket {
     display: flex;
     align-items: center;
