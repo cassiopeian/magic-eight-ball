@@ -207,4 +207,7 @@ footer {
     #etch-a-sketch {
         margin: 3rem auto 5rem;
     }
+    #ball-container {
+        margin: 3rem auto;
+    }
 }
