@@ -37,12 +37,11 @@ $('.submit').on('click', function() {
   }
   // Allows the MEB to spit out a random response
 
-  $('#ball-front').attr('src', 'images/8-ball-back-01.svg');
-  $('#ball-response').hide().fadeIn(1000).html(eightBall);
+  $('#ball-front').addClass('shake').attr('src', 'images/8-ball-back-01.svg');
+  $('#ball-response').addClass('shake').hide().fadeIn(1000).html(eightBall);
   
   console.log(`The mystic Magic Eight Ball says, "${eightBall}"`);
 });
-
 
 /* TO "RESET"/TURN THE BALL */
 
