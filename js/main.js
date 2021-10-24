@@ -43,6 +43,11 @@ $('.submit').on('click', function() {
   console.log(`The mystic Magic Eight Ball says, "${eightBall}"`);
 });
 
+// remove the shake animation, so it can be reapplied
+$('#ball-front, #ball-response').on('animationend', function() {
+  $(this).removeClass('shake');
+}); 
+
 /* TO "RESET"/TURN THE BALL */
 
 const ballFront = $('#ball-front');
