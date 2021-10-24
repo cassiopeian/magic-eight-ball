@@ -165,6 +165,16 @@ h2 {
     75%  {top:0px;}
     100% {top:80px;}
 }
+.shake {
+    animation: shake .5s ease-out;
+}
+@keyframes shake {
+    0%   {left:0;}
+    25%  {left:10%;}
+    50%  {left:0;}
+    75%  {left:-10%;}
+    100% {left:0;}
+}
 #ball-front {
     width: 100%;
     min-width: 318px;
