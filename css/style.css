@@ -152,7 +152,7 @@ h2 {
 #ball-container {
     width: 400px;
     height: 400px;
-    margin-bottom: 10%;
+    margin: 0 1rem 6rem 1rem;
     position: relative;
     animation-name: bounce;
     animation-duration: 5s;
