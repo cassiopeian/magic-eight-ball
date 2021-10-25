@@ -82,7 +82,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8%;
+    padding: 0 10%;
 }
 #etch-a-sketch {
     width: 500px;
