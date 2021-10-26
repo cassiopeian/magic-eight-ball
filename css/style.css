@@ -158,6 +158,13 @@ h2 {
     animation-duration: 5s;
     animation-iteration-count: infinite;
 }
+@-webkit-keyframes bounce {
+    0%   {top:80px;}
+    25%  {top:10px;}
+    50%  {top:60px;}
+    75%  {top:0px;}
+    100% {top:80px;}
+}
 @keyframes bounce {
     0%   {top:80px;}
     25%  {top:10px;}
