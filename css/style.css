@@ -175,6 +175,13 @@ h2 {
 .shake {
     animation: shake .5s ease-out;
 }
+@-webkit-keyframes shake {
+    0%   {left:0;}
+    25%  {left:10%;}
+    50%  {left:0;}
+    75%  {left:-10%;}
+    100% {left:0;}
+}
 @keyframes shake {
     0%   {left:0;}
     25%  {left:10%;}
