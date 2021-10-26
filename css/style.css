@@ -87,7 +87,7 @@ main {
 #etch-a-sketch {
     width: 500px;
     height: 320px;
-    background-color: #f92222f0;
+    background-color: rgb(233, 37, 37);
     border-radius: 25px;
 }
 #input-container {
