@@ -34,7 +34,9 @@ $('.submit').on('click', function() {
       break;
   }
 
+  // add the shake animation, while the back of the ball replaces the front
   $('#ball-front').addClass('shake').attr('src', 'images/8-ball-back-01.svg');
+  // shake the response text, too, as it fades into focus
   $('#ball-response').addClass('shake').hide().fadeIn(1000).html(eightBall);
   
   // log the user's question
