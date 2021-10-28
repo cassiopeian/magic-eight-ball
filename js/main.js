@@ -50,11 +50,12 @@ $('#ball-front, #ball-response').on('animationend', function() {
   $(this).removeClass('shake');
 }); 
 
-/* TO "RESET"/TURN THE BALL */
-
 $('#ball-response').on('click', function() {
+  // if the back of the ball is showing
   if (ballFront.attr('src') === 'images/8-ball-back-01.svg') {
+    // hide the response text
     ballResponse.hide();
+    // and replace the back image with the front 
     ballFront.attr('src', 'images/8-ball-face-01.svg');
   }
 });
