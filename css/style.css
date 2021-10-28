@@ -148,8 +148,10 @@ h2 {
     border-color: rgb(136, 129, 129);
     cursor: pointer;
 }
-.submit:hover {
-    transform: rotate(180deg);
+@media(hover:hover) {
+    .submit:hover {
+        transform: rotate(180deg);
+    }
 }
 #ball-container {
     width: 400px;
