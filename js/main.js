@@ -3,8 +3,6 @@ const ballResponse = $('#ball-response');
 
 $('.submit').on('click', function() {
   const userQuestion = $('#question').val();
-  console.log(`You asked, "${userQuestion}"`);
-  // This is the user's question
 
   const randomNumber = Math.floor(Math.random() * 8); 
   // Creates a random number between 0 and 7, to correlate with the possible Magic Eight Ball answers
@@ -43,6 +41,9 @@ $('.submit').on('click', function() {
   $('#ball-front').addClass('shake').attr('src', 'images/8-ball-back-01.svg');
   $('#ball-response').addClass('shake').hide().fadeIn(1000).html(eightBall);
   
+  // log the user's question
+  console.log(`You asked, "${userQuestion}"`);
+  // log the eight ball's response
   console.log(`The mystic Magic Eight Ball says, "${eightBall}"`);
 });
 
