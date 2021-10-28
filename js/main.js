@@ -1,3 +1,6 @@
+const ballFront = $('#ball-front');
+const ballResponse = $('#ball-response');
+
 $('.submit').on('click', function() {
   const userQuestion = $('#question').val();
   console.log(`You asked, "${userQuestion}"`);
@@ -49,9 +52,6 @@ $('#ball-front, #ball-response').on('animationend', function() {
 }); 
 
 /* TO "RESET"/TURN THE BALL */
-
-const ballFront = $('#ball-front');
-const ballResponse = $('#ball-response');
 
 $('#ball-response').on('click', function() {
   if (ballFront.attr('src') === 'images/8-ball-back-01.svg') {
