@@ -53,12 +53,6 @@ $('#ball-front, #ball-response').on('animationend', function() {
 const ballFront = $('#ball-front');
 const ballResponse = $('#ball-response');
 
-// if ($('#ball-front').attr('src') == 'images/8-ball-back-01.svg') {
-//   $('#ball-front').css('cursor', 'pointer');
-// } else {
-//   $('#ball-front').css('cursor', 'default');
-// }
-
 $('#ball-response').on('click', function() {
   if (ballFront.attr('src') === 'images/8-ball-back-01.svg') {
     ballResponse.hide();
