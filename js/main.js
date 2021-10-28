@@ -3,13 +3,10 @@ const ballResponse = $('#ball-response');
 
 $('.submit').on('click', function() {
   const userQuestion = $('#question').val();
-
   const randomNumber = Math.floor(Math.random() * 8); 
-  // Creates a random number between 0 and 7, to correlate with the possible Magic Eight Ball answers
-
   let eightBall = '';
-  // A variable for the MEB's response
 
+  // assign an eight ball response to each of randomNumber's possible values 
   switch (randomNumber) {
     case 0:
       eightBall = 'It is certain.';
@@ -36,7 +33,6 @@ $('.submit').on('click', function() {
       eightBall = 'Signs point to yes!';
       break;
   }
-  // Allows the MEB to spit out a random response
 
   $('#ball-front').addClass('shake').attr('src', 'images/8-ball-back-01.svg');
   $('#ball-response').addClass('shake').hide().fadeIn(1000).html(eightBall);
