@@ -89,8 +89,7 @@ main {
     height: 320px;
     background-color: rgb(233, 37, 37);
     border-radius: 25px;
-    filter: drop-shadow(8px -6px .5px rgb(150, 25, 12));
-    outline: 4px solid rgb(150, 25, 12);
+    box-shadow: 7px -5px 0px 5px rgb(150, 25, 12);
 }
 #input-container {
     width: 450px;
