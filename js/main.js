@@ -1,6 +1,3 @@
-const ballFront = $('#ball-front');
-const ballResponse = $('#ball-response');
-
 $('.submit').on('click', function() {
   const userQuestion = $('#question').val();
   const randomNumber = Math.floor(Math.random() * 8); 
@@ -51,6 +48,9 @@ $('#ball-front, #ball-response').on('animationend', function() {
 }); 
 
 $('#ball-response').on('click', function() {
+  const ballFront = $('#ball-front');
+  const ballResponse = $('#ball-response');
+
   // if the back of the ball is showing
   if (ballFront.attr('src') === 'images/8-ball-back-01.svg') {
     // hide the response text
