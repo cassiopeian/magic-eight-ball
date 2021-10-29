@@ -240,6 +240,7 @@ footer {
 
 @media only screen and (max-width: 415px) {
     main {
-        margin-top: 15%;
+        margin: 10% auto;
+        padding: 0;
     }
 }
