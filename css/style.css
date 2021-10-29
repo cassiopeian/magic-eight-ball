@@ -243,4 +243,8 @@ footer {
         margin: 10% auto;
         padding: 0;
     }
+    #etch-a-sketch {
+        margin: 5rem auto;
+        width: 90%;
+    }
 }
