@@ -6,6 +6,12 @@
 
  Are you destined to be a millionaire? Will this dystopian nightmare ever end? Ask the [Magic Eight Ball](https://cassiopeian.github.io/magic-eight-ball/)!
 
+## Favicon
+
+ <img src="images/splatter-eight-ball-01.png" style="width: 25%">
+
+ This project pays homage to popular vintage toys, so the favicon was styled to look a bit dated. With its acid wash texture and bright neon colors, any ’80s kid would approve.
+
 ## Tech Specs
 
  Magic Eight Ball was built with jQuery version 3.4.1.
