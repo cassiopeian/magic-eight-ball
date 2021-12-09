@@ -5,6 +5,7 @@
  + [Introduction](#introduction)
  + [Features](#features)
  + [Favicon](#favicon)
+ + [Tech Specs](#tech-specs)
 
 ## Introduction
 
