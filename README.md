@@ -4,6 +4,7 @@
 
  + [Introduction](#introduction)
  + [Features](#features)
+ + [Favicon](#favicon)
 
 ## Introduction
 
