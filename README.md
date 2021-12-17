@@ -25,6 +25,10 @@
 
  This project pays homage to popular vintage toys, so the favicon was styled to look a bit dated. With its acid wash texture and bright neon colors, any ’80s kid would approve.
 
+## Inspiration
+
+ <img src="images/read-me/cc-magic-eight-ball.png" style="width: 75%">
+
 ## Tech Specs
 
  Magic Eight Ball was built with jQuery version 3.4.1.
