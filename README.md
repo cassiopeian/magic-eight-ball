@@ -30,6 +30,13 @@
 
  <img src="images/read-me/cc-magic-eight-ball.png" style="width: 75%">
 
+ Codecademy has a Magic Eight Ball project that prompts users to:
+ + define variables
+ + create ternary expressions
+ + use string interpolation within a `console.log` statement
+ + generate random numbers, using the `Math.random()` method
+ + utilize an `if/else` or a `switch` statement, to create a control flow
+
 ## Tech Specs
 
  Magic Eight Ball was built with jQuery version 3.4.1.
