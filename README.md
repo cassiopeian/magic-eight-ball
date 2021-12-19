@@ -37,6 +37,8 @@
  + generate random numbers, using the `Math.random()` method
  + utilize an `if/else` or a `switch` statement, to create a control flow
 
+ I expanded the scope of the assignment, beyond the console, and designed an Etch A Sketch input and a two-sided eight ball for the output. To round out the retro toy theme, I also created a grungy Rubik’s Cube pattern for the background.
+
 ## Tech Specs
 
  Magic Eight Ball was built with jQuery version 3.4.1.
