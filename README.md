@@ -33,7 +33,7 @@
  Codecademy has a Magic Eight Ball project that prompts users to:
  + define variables
  + create ternary expressions
- + use string interpolation within a `console.log` statement
+ + use string interpolation within a `console.log()` statement
  + generate random numbers, using the `Math.random()` method
  + utilize an `if/else` or a `switch` statement, to create a control flow
 
