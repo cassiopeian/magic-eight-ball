@@ -225,6 +225,13 @@ h2 {
     background-color: rgb(243, 243, 243);
     margin: 5% auto;
 }
+#dot-grid {
+    display: grid;
+    height: 80%;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
 
 /* FOOTER */
 
