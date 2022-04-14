@@ -232,6 +232,20 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
 }
+.dot-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: rgb(24, 20, 20);
+}
+#one {
+    display: none;
+}
 
 /* FOOTER */
 
