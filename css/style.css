@@ -210,6 +210,19 @@ h2 {
     cursor: pointer;
 }
 
+/* SIX-SIDED DIE */
+
+#ssd-main {
+    display: block;
+}
+#die-face {
+    height: 300px;
+    width: 300px;
+    border-radius: 35px;
+    background-color: rgb(243, 243, 243);
+    margin: 5% auto;
+}
+
 /* FOOTER */
 
 footer {
