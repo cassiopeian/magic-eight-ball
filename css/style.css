@@ -246,6 +246,19 @@ h2 {
 #one {
     display: none;
 }
+button {
+    display: block;
+    font-family: platelet, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: rgb(247, 245, 245);
+    background-color: rgb(233, 37, 37);
+    border: none;
+    border-radius: 35px;
+    padding: .8rem 3rem;
+    margin: 6% auto 2%;
+    cursor: pointer;
+}
 
 /* FOOTER */
 
