@@ -223,7 +223,7 @@ h2 {
     width: 300px;
     border-radius: 35px;
     background-color: rgb(243, 243, 243);
-    margin: 5% auto;
+    margin: 4% auto 6%;
 }
 #dot-grid {
     display: grid;
