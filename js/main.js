@@ -59,3 +59,12 @@ $('#ball-response').on('click', function() {
     ballFront.attr('src', 'images/8-ball-face-01.svg');
   }
 });
+
+
+// --------------- 
+// SIX-SIDED DIE
+// ---------------
+
+function hideNamedDots() {
+  $('#top-right, #one, #bottom-left').css('display', 'none');
+};
