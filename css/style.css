@@ -223,6 +223,7 @@ h2 {
     width: 200px;
     border-radius: 35px;
     background-color: rgb(243, 243, 243);
+    background-image: linear-gradient(144deg, transparent 55%, rgb(205, 205, 205));
     margin: 10% auto 6%;
     position: relative;
 }
