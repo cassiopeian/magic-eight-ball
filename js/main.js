@@ -107,6 +107,15 @@ $('#roll-die').on('click', function() {
       // show the top and bottom rows of dots
       $('.row-one, .row-three').css('display', 'block');
       break;
+    case 5:
+      hideNamedDots();
+      // hide the middle row of dots
+      $('.row-two').css('display', 'none');
+      // show the top and bottom rows of dots
+      $('.row-one, .row-three').css('display', 'block');
+      // show the middle dot
+      $('#one').css('display', 'block');
+      break;
   }
 
   if (randomDieFace === 0) {
