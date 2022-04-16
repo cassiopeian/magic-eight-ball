@@ -244,6 +244,7 @@ h2 {
     width: 50%;
     border-radius: 50%;
     background-color: rgb(24, 20, 20);
+    background-image: linear-gradient(144deg, rgb(66, 66, 66) 35%, rgb(24, 20, 20));
 }
 #one {
     display: none;
