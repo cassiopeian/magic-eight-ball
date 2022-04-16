@@ -333,4 +333,13 @@ footer {
     #input-container {
         width: 85%;
     }
+
+    /* SIX-SIDED DIE */
+
+    #ssd-main {
+        margin: 20% auto 5%;
+    }
+    button {
+        margin: 4rem auto 2%;
+    }
 }
