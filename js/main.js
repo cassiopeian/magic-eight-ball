@@ -70,6 +70,9 @@ function hideNamedDots() {
 };
 
 $('#roll-die').on('click', function() {
+  // play the 'rolled' keyframes animation
+  $('#die-face').addClass('rolled');
+
   const randomDieFace = Math.floor(Math.random() * 6);
 
   switch (randomDieFace) {
@@ -123,4 +126,9 @@ $('#roll-die').on('click', function() {
   } else {
     console.log(`You rolled a ${randomDieFace}!`);
   }
+});
+
+// reset the 'rolled' keyframes animation
+$('#die-face').on('animationend', function() {
+  $(this).removeClass('rolled');
 });
