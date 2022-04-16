@@ -260,6 +260,36 @@ button {
     margin: 6% auto 2%;
     cursor: pointer;
 }
+.rolled {
+    -webkit-animation-name: rolled;
+    -webkit-animation-duration: 2s;
+    animation-name: rolled;
+    animation-duration: 2s;
+}
+@-webkit-keyframes rolled {
+    0% {
+        top: 0px;
+    }
+    75% {
+        top: -80px;
+        transform: rotate(360deg);
+    }
+    100% {
+        top: 0px;
+    }
+}
+@keyframes rolled {
+    0% {
+        top: 0px;
+    }
+    75% {
+        top: -80px;
+        transform: rotate(360deg);
+    }
+    100% {
+        top: 0px;
+    }
+}
 
 /* FOOTER */
 
