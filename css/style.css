@@ -219,11 +219,12 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 300px;
-    width: 300px;
+    height: 200px;
+    width: 200px;
     border-radius: 35px;
     background-color: rgb(243, 243, 243);
-    margin: 4% auto 6%;
+    margin: 10% auto 6%;
+    position: relative;
 }
 #dot-grid {
     display: grid;
