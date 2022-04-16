@@ -94,6 +94,12 @@ $('#roll-die').on('click', function() {
       $('.row-two').css('display', 'block');
       hideNamedDots();
       break;
+    case 3:
+      // hide all the dots...
+      $('.dot').css('display', 'none');
+      // except three diagonal ones
+      $('#top-right, #one, #bottom-left').css('display', 'block');
+      break;
   }
 
   if (randomDieFace === 0) {
