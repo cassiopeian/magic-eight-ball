@@ -80,6 +80,13 @@ $('#roll-die').on('click', function() {
       // except the one in the middle
       $('#one').css('display', 'none');
       break;
+    case 1:
+      hideNamedDots();
+      // hide all the dots...
+      $('.dot').css('display', 'none');
+      // except the one in the middle
+      $('#one').css('display', 'block');
+      break;
   }
 
   if (randomDieFace === 0) {
