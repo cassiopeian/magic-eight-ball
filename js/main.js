@@ -68,3 +68,23 @@ $('#ball-response').on('click', function() {
 function hideNamedDots() {
   $('#top-right, #one, #bottom-left').css('display', 'none');
 };
+
+$('#roll-die').on('click', function() {
+  const randomDieFace = Math.floor(Math.random() * 6);
+
+  switch (randomDieFace) {
+    case 0:
+      hideNamedDots();
+      // show all the dots...
+      $('.dot').css('display', 'block');
+      // except the one in the middle
+      $('#one').css('display', 'none');
+      break;
+  }
+
+  if (randomDieFace === 0) {
+    console.log(`You rolled a 6!`);
+  } else {
+    console.log(`You rolled a ${randomDieFace}!`);
+  }
+});
