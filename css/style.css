@@ -263,33 +263,53 @@ button {
     cursor: pointer;
 }
 .rolled {
-    -webkit-animation-name: rolled;
-    -webkit-animation-duration: 2s;
-    animation-name: rolled;
-    animation-duration: 2s;
+    -webkit-animation: rolled 2s ease-in;
+    animation: rolled 2s ease-in;
 }
 @-webkit-keyframes rolled {
     0% {
         top: 0px;
     }
-    75% {
+    65% {
         top: -80px;
+        transform: rotate(180deg);
+    }
+    80% {
+        top: 0px;
         transform: rotate(360deg);
+    }
+    90% {
+        top: -30px;
+        left: 5px;
+        transform: rotate(350deg);
     }
     100% {
         top: 0px;
+        right: 5px;
+        transform: rotate(360deg);
     }
 }
 @keyframes rolled {
     0% {
         top: 0px;
     }
-    75% {
+    65% {
         top: -80px;
+        transform: rotate(180deg);
+    }
+    80% {
+        top: 0px;
         transform: rotate(360deg);
+    }
+    90% {
+        top: -30px;
+        left: 5px;
+        transform: rotate(350deg);
     }
     100% {
         top: 0px;
+        right: 5px;
+        transform: rotate(360deg);
     }
 }
 
