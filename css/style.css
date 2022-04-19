@@ -46,6 +46,7 @@ header {
 }
 #hamburger img {
     height: 35px;
+    cursor: pointer;
 }
 a {
     text-decoration: none;
