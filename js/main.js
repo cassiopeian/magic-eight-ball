@@ -2,7 +2,10 @@ let isX = false;
 
 $('#hamburger').on('click', function() {
   if (isX === true) {
-    // remove the transformations
+    // hide the nav
+    $('nav').animate({right: '-100%'}, 750);
+
+    // remove the pool cue transformations
     $('#top-cue').removeClass('rotate-top-cue');
     $('#middle-cue').removeClass('hide-middle-cue');
     $('#bottom-cue').removeClass('rotate-bottom-cue');
@@ -10,7 +13,10 @@ $('#hamburger').on('click', function() {
     // so the x is a hamburger again
     isX = false;
   } else if (isX === false) {
-    // add the transformations
+    // display the hidden nav
+    $('nav').animate({right: 0}, 750);
+
+    // add the pool cue transformations
     $('#top-cue').addClass('rotate-top-cue');
     $('#middle-cue').addClass('hide-middle-cue');
     $('#bottom-cue').addClass('rotate-bottom-cue');
