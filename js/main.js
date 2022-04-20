@@ -1,3 +1,30 @@
+let isX = false;
+
+$('#hamburger').on('click', function() {
+  if (isX === true) {
+    // remove the transformations
+    $('#top-cue').removeClass('rotate-top-cue');
+    $('#middle-cue').removeClass('hide-middle-cue');
+    $('#bottom-cue').removeClass('rotate-bottom-cue');
+    
+    // so the x is a hamburger again
+    isX = false;
+  } else if (isX === false) {
+    // add the transformations
+    $('#top-cue').addClass('rotate-top-cue');
+    $('#middle-cue').addClass('hide-middle-cue');
+    $('#bottom-cue').addClass('rotate-bottom-cue');
+    
+    // so the hamburger is now an x
+    isX = true;
+  } 
+});
+
+
+// ----------------- 
+// MAGIC EIGHT BALL
+// -----------------
+
 $('.submit').on('click', function() {
   const userQuestion = $('#question').val();
   const randomNumber = Math.floor(Math.random() * 8); 
