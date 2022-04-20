@@ -44,9 +44,17 @@ header {
     justify-content: space-between;
     margin: 1.5rem 2rem;
 }
-#hamburger img {
+#hamburger {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     height: 35px;
+    width: 63.13px;
     cursor: pointer;
+}
+#hamburger img {
+    width: 100%;
 }
 a {
     text-decoration: none;
