@@ -428,6 +428,10 @@ footer {
     #input-container {
         width: 85%;
     }
+    footer {
+        font-size: .7rem;
+        font-weight: bold;
+    }
 
     /* SIX-SIDED DIE */
 
