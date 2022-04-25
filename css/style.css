@@ -414,6 +414,9 @@ footer {
 }
 
 @media only screen and (max-width: 415px) {
+    nav {
+        width: 50%;
+    }
     main {
         margin: 10% auto;
         padding: 0;
