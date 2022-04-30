@@ -429,6 +429,11 @@ footer {
         margin: 5rem auto;
         width: 90%;
     }
+    #ball-container {
+        width: 310px;
+        height: 310px;
+        margin: 0 auto 2rem;
+    }
     #input-container {
         width: 85%;
     }
