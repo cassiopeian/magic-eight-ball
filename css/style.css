@@ -421,7 +421,8 @@ footer {
         width: 50%;
     }
     main {
-        margin: 10% auto;
+        width: 100%;
+        margin: 2rem auto;
         padding: 0;
     }
     #etch-a-sketch {
