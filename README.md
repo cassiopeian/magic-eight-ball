@@ -4,6 +4,8 @@
 
  + [Introduction](#introduction)
  + [Features](#features)
+    - [Magic Eight Ball](#magic-eight-ball)
+    - [Six-Sided Die](#six-sided-die)
  + [Favicon](#favicon)
  + [Inspiration](#inspiration)
  + [Tech Specs](#tech-specs)
@@ -15,10 +17,16 @@
  Are you destined to be a millionaire? Will this dystopian nightmare ever end? Ask the [Magic Eight Ball](https://cassiopeian.github.io/magic-eight-ball/)!
 
 ## Features
+
+ ### Magic Eight Ball
  
  <img src="images/read-me/meb-response.png" style="width: 75%">
 
  Once you’ve “etched” your question and selected a dial, the Magic Eight Ball will jiggle slightly, before revealing a sage response.
+
+ ### Six-Sided Die
+
+ <img src="images/read-me/die-and-menu.png" style="width: 75%">
 
 ## Favicon
 
