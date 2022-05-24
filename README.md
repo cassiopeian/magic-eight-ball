@@ -49,6 +49,8 @@
 
  I expanded the scope of the assignment, beyond the console, and designed an Etch A Sketch input and a two-sided eight ball for the output. To round out the retro toy theme, I also created a grungy Rubik’s Cube pattern for the background.
 
+ Then, I created the six-sided die to play an RPG.  
+
 ## Tech Specs
 
  Magic Eight Ball was built with jQuery version 3.4.1.
