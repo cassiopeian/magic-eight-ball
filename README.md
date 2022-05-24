@@ -28,6 +28,8 @@
 
  <img src="images/read-me/die-and-menu.png" style="width: 75%">
 
+ This bonus game of chance allows you to roll a six-sided die, with the click of a button. Once the *Roll* button is clicked, the die will spin upward and clatter back down.
+
 ## Favicon
 
  <img src="images/splatter-eight-ball-01.png" style="width: 25%">
