@@ -1,5 +1,20 @@
 let isX = false;
 
+// nudge the pool cues independently, on hover
+function nudgeCues(cue, wait) {
+  $(cue)
+  .stop(true)
+  .delay(wait)
+  .animate({left: '10px'}, 400)
+  .queue(function() {
+      $(cue).animate({left: '-15px'}, 400).dequeue()
+  })
+  .queue(function() {
+      $(cue).animate({left: ''}, 400).dequeue()
+  })
+  .removeAttr('style');
+};
+
 $('#hamburger').on('click', function() {
   if (isX === true) {
     // hide the nav
