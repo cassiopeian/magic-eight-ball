@@ -15,6 +15,18 @@ function nudgeCues(cue, wait) {
   .removeAttr('style');
 };
 
+function scissorX() {
+  // rotate the top and bottom cues a bit more
+  $('#top-cue').css('transform', 'rotate(320deg)');
+  $('#bottom-cue').css('transform', 'rotate(35deg)');
+
+  setTimeout(function() {
+      // quickly return them to their previous positions
+      $('#top-cue').removeAttr('style');
+      $('#bottom-cue').removeAttr('style');
+  }, 400);
+}
+
 $('#hamburger').on('click', function() {
   if (isX === true) {
     // hide the nav
