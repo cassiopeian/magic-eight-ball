@@ -27,6 +27,16 @@ function scissorX() {
   }, 400);
 }
 
+$('#hamburger').on('mouseenter', function() {
+  if (isX === true) {
+      scissorX();
+  } else if (isX === false) {
+      nudgeCues('#top-cue', 300);
+      nudgeCues('#middle-cue', 0);
+      nudgeCues('#bottom-cue', 600);
+  }
+});
+
 $('#hamburger').on('click', function() {
   if (isX === true) {
     // hide the nav
