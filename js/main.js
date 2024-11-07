@@ -202,3 +202,6 @@ $('#roll-die').on('click', function() {
 $('#die-face').on('animationend', function() {
   $(this).removeClass('rolled');
 });
+
+// set copyright year
+$('#copyright-year').html(new Date().getFullYear());
